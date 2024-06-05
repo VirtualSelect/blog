@@ -12,9 +12,9 @@ const TITLE = '友链'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
 const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
-title: '愧怍'
+title: 'Hohoo'
 description: '道阻且长，行则将至'
-website: 'https://kuizuo.cn'
+website: 'https://huhohoo.com'
 avatar: 'https://kuizuo.cn/img/logo.png'
 `
 
