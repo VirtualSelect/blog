@@ -1,17 +1,17 @@
 export const Friends: Friend[] = [
   {
-    title: '峰华前端工程师',
-    description: '致力于帮助你以最直观、最快速的方式学会前端开发',
-    website: 'https://zxuqian.cn',
-    avatar: '/img/friend/zxuqian.png',
+    title: '愧怍',
+    description: '道阻且长，行则将至',
+    website: 'https://kuizuo.cn',
+    avatar: 'https://kuizuo.cn/img/logo.png',
   },
   {
-    title: 'Mas0n',
-    description: '梦想是咸鱼',
-    website: 'https://mas0n.cn',
-    avatar: '/img/friend/mas0n.png',
+    title: '宇宁',
+    description: '纸上得来终觉浅，绝知此事要躬行',
+    website: 'https://yn-wiki.com',
+    avatar: 'https://yn-wiki.com/img/logo.svg',
   },
-  {
+  /*{
     title: 'Jetzihan',
     description: 'A bug maker.',
     website: 'https://www.jet-lab.site/',
@@ -88,7 +88,7 @@ export const Friends: Friend[] = [
     description: 'The water flows incessantly, without vying for precedence.',
     website: 'https://www.licodeao.top',
     avatar: '/img/friend/licodeao.png',
-  },
+  },*/
 ]
 
 export type Friend = {

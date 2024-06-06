@@ -9,13 +9,13 @@ import styles from './styles.module.css'
 import { motion } from 'framer-motion'
 
 const TITLE = '友链'
-const DESCRIPTION = '有很多良友，胜于有很多财富。'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
+const DESCRIPTION = '三人行，必有我师。'
+const ADD_FRIEND_URL = 'https://github.com/VirtualSelect/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
 title: 'Hohoo'
-description: '道阻且长，行则将至'
+description: '生活有望穿秋水的等待，也有意想不到的惊喜'
 website: 'https://huhohoo.com'
-avatar: 'https://kuizuo.cn/img/logo.png'
+avatar: 'https://huhohoo.com/img/logo.png'
 `
 
 function SiteInfo() {

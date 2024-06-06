@@ -133,7 +133,7 @@ const config: Config = {
       }" >${beian1}</a></p>
         <p>Copyright © 2020 - PRESENT Hohoo Built with Docusaurus.</p>
         `,*/
-      copyright: `<p>Copyright © 2020 - PRESENT Hohoo Built with Docusaurus.</p>`,
+      copyright: `<p>Copyright © 2024 - Hohoo's Blog Built with Docusaurus.</p>`,
     },
     algolia: {
       appId: 'GV6YN1ODMO',
