@@ -4,8 +4,8 @@ import { themes } from 'prism-react-renderer'
 import { GiscusConfig } from './src/components/Comment'
 import social from './data/social'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
+// const beian = '闽ICP备2020017848号-2'
+// const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
   title: 'Hohoo',
@@ -17,7 +17,7 @@ const config: Config = {
   customFields: {
     bio: '道阻且长，行则将至',
     description:
-      '是一个由Hohoo创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      'Hohoo的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
     // announcementBar: {
@@ -88,7 +88,7 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.cn' },
+            /*{ label: '前端示例', to: 'https://example.kuizuo.cn' },*/
           ],
         },
         {
@@ -126,13 +126,14 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `
+      /*copyright: `
         <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
         <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
         beian1.match(/\d+/)?.[0]
       }" >${beian1}</a></p>
         <p>Copyright © 2020 - PRESENT Hohoo Built with Docusaurus.</p>
-        `,
+        `,*/
+      copyright: `<p>Copyright © 2020 - PRESENT Hohoo Built with Docusaurus.</p>`,
     },
     algolia: {
       appId: 'GV6YN1ODMO',
@@ -250,8 +251,9 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'Hohoo',
+          // copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} Hohoo Built with Docusaurus.`,
         },
       },
     ],
@@ -261,7 +263,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: 'Hohoo的个人博客',
       },
     },
   ],

@@ -2,15 +2,15 @@
   "name": "blog",
   "version": "3.0.0",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
-    "name": "愧怍"
+    "url": "https://github.com/VirtualSelect",
+    "email": "yiranburan@163.com",
+    "name": "Hohoo"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/VirtualSelect/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://huhohoo.com",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
