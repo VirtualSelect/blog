@@ -104,7 +104,7 @@ const config: Config = {
           title: '网站',
           items: [
             { label: 'Vercel', to: 'https://vercel.com' },
-            { label: '愧怍', to: 'https://api.kuizuo.cn' },
+            { label: '愧怍', to: 'https://kuizuo.cn' },
             { label: '时间戳', to: 'https://tool.lu/timestamp' },
             { label: 'JSON', to: 'https://www.json.cn' },
             { label: 'Cron表达式', to: 'https://www.pppet.net' },
