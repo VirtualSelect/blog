@@ -25,7 +25,7 @@ const social: Social = {
   wx: '',
   // zhihu: 'https://www.zhihu.com/people/kuizuo',
   // cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-  email: 'mailto:hi@kuizuo.cn',
+  email: 'mailto:huhohoo@163.com',
   discord: 'https://discord.gg/54rPX7BF',
 }
 

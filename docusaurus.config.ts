@@ -88,7 +88,6 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
-            /*{ label: '前端示例', to: 'https://example.kuizuo.cn' },*/
           ],
         },
         {
@@ -104,11 +103,11 @@ const config: Config = {
         {
           title: '网站',
           items: [
-            { label: 'js反混淆', to: 'https://js-deobfuscator.kuizuo.cn' },
-            { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
-            { label: 'api服务', to: 'https://api.kuizuo.cn' },
-            { label: '便民服务', to: 'https://service.kuizuo.cn' },
-            { label: '站点监控', to: 'https://uptime.kuizuo.cn' },
+            { label: 'Vercel', to: 'https://vercel.com' },
+            { label: '愧怍', to: 'https://api.kuizuo.cn' },
+            { label: '时间戳', to: 'https://tool.lu/timestamp' },
+            { label: 'JSON', to: 'https://www.json.cn' },
+            { label: 'Cron表达式', to: 'https://www.pppet.net' },
           ],
         },
         {
