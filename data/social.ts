@@ -19,10 +19,10 @@ type SocialValue = {
 
 const social: Social = {
   github: 'https://github.com/VirtualSelect/blog',
-  twitter: 'https://twitter.com/kuizuo',
+  twitter: 'https://x.com/HuHohoo1997',
   juejin: 'https://juejin.cn/user/3193408409047783',
-  qq: 'https://img.kuizuo.cn/qq.png',
-  wx: 'https://img.kuizuo.cn/wechat.png',
+  qq: '',
+  wx: '',
   // zhihu: 'https://www.zhihu.com/people/kuizuo',
   // cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
   email: 'mailto:hi@kuizuo.cn',
