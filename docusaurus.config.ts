@@ -134,15 +134,10 @@ const config: Config = {
         `,*/
       copyright: `<p>Copyright © 2024 - Hohoo's Blog Built with Docusaurus.</p>`,
     },
-    /*algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
-    },*/
     algolia: {
-      appId: 'WILA16VEOV',
-      apiKey: '803dcaf41760d3323b0e7df207154b66',
-      indexName: 'Hohoo',
+      appId: '69CJV5KUH7',
+      apiKey: '62bd44a01613f82c222b44792cc49500',
+      indexName: 'huhohoo',
     },
     prism: {
       theme: themes.oneLight,
