@@ -318,7 +318,6 @@ const sidebars: SidebarsConfig = {
     'tools/vscode-config',
     'tools/idea-config',
     'tools/vite-plugin',
-    'tools/jetbrains-product-activation-method',
   ],
 }
 

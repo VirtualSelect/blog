@@ -125,13 +125,6 @@ const config: Config = {
           ],
         },
       ],
-      /*copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-        beian1.match(/\d+/)?.[0]
-      }" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT Hohoo Built with Docusaurus.</p>
-        `,*/
       copyright: `<p>Copyright © 2024 - Hohoo's Blog Built with Docusaurus.</p>`,
     },
     algolia: {
@@ -251,7 +244,6 @@ const config: Config = {
         feedOptions: {
           type: 'all',
           title: 'Hohoo',
-          // copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
           copyright: `Copyright © ${new Date().getFullYear()} Hohoo Built with Docusaurus.`,
         },
       },
