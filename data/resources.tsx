@@ -265,7 +265,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Gitea',
         desc: 'Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.',
-        logo: 'https://gitea.io/images/favicon.png',
+        // logo: 'https://gitea.io/images/favicon.png',
+        logo: 'https://about.gitea.cn/images/gitea.svg',
         href: 'https://gitea.io/',
         tags: ['代码托管'],
       },
@@ -453,7 +454,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'TanStack Query',
         desc: '适用于 TS/JS、React、Solid、Vue 和 Svelte 的强大异步状态管理',
-        logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
+        // logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
+        logo: 'https://tanstack.com/_build/assets/logo-color-100w-lPbOTx1K.png',
         href: 'https://tanstack.com/query/latest/',
         tags: ['前端', 'React'],
       },
@@ -479,7 +481,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'TailwindCSS',
         desc: 'Tailwind CSS 是一个功能类优先的 CSS 框架，它集成了诸如 flex, pt-4, text-center 和 rotate-90 这样的的类，它们能直接在脚本标记语言中组合起来，构建出任何设计',
-        logo: 'https://www.tailwindcss.cn/favicon-32x32.png',
+        // logo: 'https://www.tailwindcss.cn/favicon-64x64.png',
+        logo: 'https://logowik.com/content/uploads/images/tailwind-css7675.logowik.com.webp',
         href: 'https://www.tailwindcss.cn',
         tags: ['Css', '框架'],
       },
@@ -500,7 +503,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'UnoCSS',
         desc: '即时按需原子 CSS 引擎',
-        logo: 'https://uno.antfu.me//favicon.svg',
+        // logo: 'https://uno.antfu.me//favicon.svg',
+        logo: 'https://th.bing.com/th/id/OIP.fluuYKXSZigSAgMiDUd_5AAAAA?rs=1&pid=ImgDetMain',
         href: 'https://uno.antfu.me/',
         tags: ['Css', '框架'],
       },
@@ -570,7 +574,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'HYPE4',
         desc: '透明玻璃态生成器',
-        logo: 'https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png',
+        // logo: 'https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png',
+        logo: 'https://hype4.academy/_next/static/media/logo.b6977cf7.svg',
         href: 'https://hype4.academy/tools/glassmorphism-generator',
         tags: ['Css'],
       },
@@ -610,8 +615,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Element Plus',
         desc: '基于 Vue 3，面向设计师和开发者的组件库',
-        logo: 'https://element-plus.gitee.io/images/element-plus-logo-small.svg',
-        href: 'https://element-plus.gitee.io/',
+        logo: 'https://element-plus.org/images/element-plus-logo.svg',
+        href: 'https://element-plus.org/zh-CN/',
         tags: ['前端', 'Vue', '组件库'],
       },
       {
@@ -652,8 +657,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Vuetify',
         desc: 'Vuetify 是一个 Vue UI 库，包含手工制作的精美材料组件。不需要设计技能 - 创建令人惊叹的应用程序所需的一切都触手可及',
-        logo: 'https://vuetify.cn/favicon.ico',
-        href: 'https://vuetify.cn/',
+        logo: 'https://cdn.vuetifyjs.com/docs/images/one/logos/vuetify-logo-light.png',
+        href: 'https://vuetifyjs.com/',
         tags: ['组件库', 'react'],
       },
       {
@@ -739,21 +744,21 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Node',
         desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时',
-        logo: 'https://nodejs.org/static/images/favicons/apple-touch-icon.png',
+        logo: 'https://th.bing.com/th/id/OIP.Tf4BFI6846neirVSebC0vAAAAA?rs=1&pid=ImgDetMain',
         href: 'http://nodejs.cn/',
         tags: ['后端', 'Nodejs', '文档'],
       },
       {
         name: 'Deno',
         desc: '一个现代的JavaScript和TypeScript运行时',
-        logo: 'https://deno.land/logo.svg',
-        href: 'https://bun.sh/',
+        logo: 'https://www.denojs.cn/img/logo.png',
+        href: 'https://www.denojs.cn/',
         tags: ['Nodejs', 'Deno', 'JavaScript', 'TypeScript'],
       },
       {
         name: 'Bun',
         desc: 'Bun 是一个快速的一体化 JavaScript 运行时',
-        logo: '/img/resource/bun.svg',
+        logo: 'https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png',
         href: 'https://bun.sh',
         tags: ['Nodejs', 'Deno', 'JavaScript', 'TypeScript'],
       },
@@ -1003,13 +1008,13 @@ export const resourceData: ResourceCategory[] = [
         href: 'https://www.emojiall.com/zh-hans',
         tags: ['图标', 'emoji'],
       },
-      {
+      /*{
         name: '渐变色网站',
         desc: '数百万个自动生成的渐变的网站',
         logo: 'https://gradihunt.com/favicon.ico',
         href: 'https://gradihunt.com/',
         tags: ['配色', '背景'],
-      },
+      },*/
       {
         name: '谷歌字体',
         desc: '一个生成渐变色背景的网站',
@@ -1046,7 +1051,8 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Flutter',
         desc: 'Flutter 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用',
-        logo: 'https://flutter.cn/assets/images/cn/flutter-icon.png',
+        // logo: 'https://flutter.cn/assets/images/cn/flutter-icon.png',
+        logo: 'https://files.flutter-io.cn/images/branding/flutterlogo/flutter-cn-logo.png',
         href: 'https://flutter.cn/',
         tags: ['跨平台', 'Rust'],
       },
@@ -1072,14 +1078,14 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'VitePress',
         desc: 'Vue 驱动并使用Vite构建的静态网站生成器',
-        logo: 'https://vuepress.vuejs.org/hero.png',
+        logo: 'https://vitepress.dev/vitepress-logo-mini.svg',
         href: 'https://vitepress.vuejs.org',
         tags: ['前端', 'Vue', '静态站点'],
       },
       {
         name: 'VuePress',
         desc: 'Vue 驱动的静态网站生成器',
-        logo: 'https://vuepress.vuejs.org/hero.png',
+        logo: 'https://vuepress.vuejs.org/images/hero.png',
         href: 'https://vuepress.vuejs.org',
         tags: ['前端', 'Vue', '静态站点'],
       },

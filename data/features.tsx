@@ -13,12 +13,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.developer',
-      message: 'TypeScript 全栈工程师',
+      message: 'Java后端开发工程师',
     }),
     text: (
       <Translate>
-        作为一名 TypeScript 全栈工程师，秉着能用 TS 绝不用 JS
-        的原则，为项目提供类型安全的保障，提高代码质量和开发效率。
+        普普通通Java后端开发工程师一枚，有代码强迫症。
       </Translate>
     ),
     Svg: WebDeveloperSvg,
@@ -26,11 +25,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.spider',
-      message: '会点逆向 & 爬虫',
+      message: '技术狂热者',
     }),
     text: (
       <Translate>
-        作为一名曾学习与实践逆向工程两年半的开发者，对于逆向工程有着浓厚的兴趣，同时造就了超凡的阅读代码能力。没有看不懂的代码，只有不想看的代码。
+        喜欢研究新鲜事物。
       </Translate>
     ),
     Svg: SpiderSvg,
@@ -42,7 +41,7 @@ const FEATURES: FeatureItem[] = [
     }),
     text: (
       <Translate>
-        作为一名开源爱好者，积极参与开源社区，为开源项目贡献代码，希望有生之年能够构建出一个知名的开源项目。
+        希望积极参与开源社区，为开源项目贡献代码。
       </Translate>
     ),
     Svg: OpenSourceSvg,
